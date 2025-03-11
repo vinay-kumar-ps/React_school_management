@@ -1,4 +1,10 @@
+import Main from "../layouts/Main";
 const Dashboard = () => {
-    return <p>Dashboard</p>;
+    return  (
+        <>
+        <Main/>
+        <p>Dashboard</p>
+        </>
+    )
 };
 export default Dashboard;
