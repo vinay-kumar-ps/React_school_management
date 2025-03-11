@@ -1,17 +1,21 @@
 .sidebar{
   background-color: rgb(49, 48, 48);
-  width: 200px;
-  height: calc(100vh - 60px);
+  width: 120px;
+  height: calc(100vh - 56px);
   position: fixed;
 }
 
 .sidebar a{
-  color: white;
+  color: rgb(210, 210, 210);
   text-decoration: none;
   display: block;
   padding: 10px;
 }
 .sidebar a.active{
-  background-color: rgb(49, 48, 48);
+  background-color: rgb(107, 97, 97);
   text-decoration: underline;
+}
+.sidebar a:hover{
+  background-color: rgb(186, 175, 175);
+  text-decoration: unset
 }
