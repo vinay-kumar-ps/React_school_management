@@ -1,15 +1,18 @@
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 
-const sidebar = () => {
+const Sidebar = () => {
 return(
     <div className="sidebar">
-  <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+  <Nav  defaultActiveKey= "/" className="flex-column">
+            <Nav.Link href="/">Dashboard</Nav.Link>
+            <Nav.Link href="/stduents">stduents</Nav.Link>
+            <Nav.Link href="/staffs">staffs</Nav.Link>
+            <Nav.Link href="/library">library</Nav.Link>
+            <Nav.Link href="/accounts">accounts</Nav.Link>
                        
           </Nav>
         </div>
-)
-}
-export default sidebar;
+);
+};
+export default Sidebar;

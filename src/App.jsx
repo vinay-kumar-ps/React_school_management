@@ -2,12 +2,14 @@
 
 import './App.css';
 import AppNavbar from './components/AppNavbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div>
+    <>
       <AppNavbar />
-    </div>
+      <Sidebar />
+    </>
   );
 }
 
