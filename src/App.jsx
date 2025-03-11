@@ -3,14 +3,16 @@
 import './App.css';
 import AppNavbar from './components/AppNavbar';
 import Sidebar from './components/Sidebar';
-import {reactBrowserRouter}from 'react-router-dom';
+import { RouterProvider}from 'react-router-dom';
+import router from './router';
 
 function App() {
   return (
     <>
-      <AppNavbar />
-      <Sidebar />
-    </>
+      {/* <AppNavbar />
+      <Sidebar /> */}
+      <RouterProvider router={router}/>
+      </>
   );
 }
 

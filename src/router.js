@@ -1,8 +1,14 @@
+import Account from "./views/Account";
+import Library from "./views/Library";
+import Staff from "./views/Staff";
+import Student from "./views/Student";
+import Dashboard from "./views/Dashboard";
+
 import {
     createBrowserRouter
   } from "react-router-dom";
   
-  const Router = createBrowserRouter([
+  const router = createBrowserRouter([
     {
         path: "/",
         element:< Dashboard />,
@@ -24,4 +30,4 @@ import {
         element: <Account />,
     },
   ]);
-  export default Router;
+  export default router;
