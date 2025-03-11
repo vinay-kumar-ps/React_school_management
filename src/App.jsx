@@ -17,15 +17,14 @@ function App() {
             />
             Thalassa 
            </Navbar.Brand>
-           <Navbar.Toggle aria-controls="navbar-dark-example" />
-        <Navbar.Collapse id="navbar-dark-example">
+           <Navbar.Toggle aria-controls="navbar-dark" />
+        <Navbar.Collapse id="navbar-dark">
           <Nav>
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="contact us"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Carreers</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Our team
               </NavDropdown.Item>
