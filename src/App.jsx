@@ -20,6 +20,6 @@ function App() {
         </Container>
       </Navbar>
   );
-}
+} 
 
 export default App;
