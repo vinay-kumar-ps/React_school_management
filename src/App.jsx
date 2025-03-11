@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import {Navbar,Container} from 'react-bootstrap';
+import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import  Logo  from './assets/logo.svg'
 
 function App() {
   return (
-      <Navbar className="bg-dark">
+      <Navbar variant="dark" bg="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#home" className='text-light'>
             <img
@@ -15,8 +15,28 @@ function App() {
               height="30"
               className="d-inline-block align-top"
             />
-            chipmunk school
+            Thalassa 
            </Navbar.Brand>
+           <Navbar.Toggle aria-controls="navbar-dark-example" />
+        <Navbar.Collapse id="navbar-dark-example">
+          <Nav>
+            <NavDropdown
+              id="nav-dropdown-dark-example"
+              title="contact us"
+              menuVariant="dark"
+            >
+              <NavDropdown.Item href="#action/3.1">Carreers</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Our team
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Products</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Mail us
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
         </Container>
       </Navbar>
   );
