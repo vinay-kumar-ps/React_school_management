@@ -1,14 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
-import Button from 'react-bootstrap/Button';
+import {Navbar,Container} from 'react-bootstrap';
+import  Logo  from './assets/logo.svg'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello School App</h1>
-      <Button variant="primary">Click Me</Button>
-    </div>
+      <Navbar className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              alt="Logo"
+              src={Logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+            chipmunk school
+           </Navbar.Brand>
+        </Container>
+      </Navbar>
   );
 }
 
