@@ -5,9 +5,9 @@ import  Logo  from './assets/logo.svg'
 
 function App() {
   return (
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
+      <Navbar className="bg-dark">
+        <Container fluid>
+          <Navbar.Brand href="#home" className='text-light'>
             <img
               alt="Logo"
               src={Logo}
