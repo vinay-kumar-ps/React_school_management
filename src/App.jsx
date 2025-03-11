@@ -1,8 +1,7 @@
 // App.js
 
 import './App.css';
-import AppNavbar from './components/AppNavbar';
-import Sidebar from './components/Sidebar';
+
 import { RouterProvider}from 'react-router-dom';
 import router from './router';
 
