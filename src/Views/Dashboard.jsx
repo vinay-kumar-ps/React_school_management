@@ -2,8 +2,9 @@ import Main from "../layouts/Main";
 const Dashboard = () => {
     return  (
         <>
-        <Main/>
-        <p>Dashboard</p>
+        <Main>
+        <p>From Dashboard</p>
+        </Main>
         </>
     )
 };

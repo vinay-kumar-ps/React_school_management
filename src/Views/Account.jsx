@@ -4,8 +4,9 @@ import Main from "../layouts/Main";
 const Account = () => {
     return  (
         <>
-        <Main/>
-        <p>Account</p>
+        <Main>
+        <p>From Account</p>
+        </Main>
         </>
     )
 };
